@@ -1,0 +1,1 @@
+SELECT nama.name, work.name as work, kategori.salary FROM nama INNER JOIN work INNER JOIN kategori ON nama.id_work = work.id AND nama.id_salary = kategori.id
